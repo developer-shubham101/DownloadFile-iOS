@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vcq-pT-57C">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="3Ie-Ys-hFB">
+            <objects>
+                <viewController id="Vcq-pT-57C" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="emG-tM-Rk9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_devpoint" translatesAutoresizingMaskIntoConstraints="NO" id="SIk-rt-b9x">
+                                <rect key="frame" x="30" y="74" width="354" height="758"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MHf-Mg-Xwg"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="SIk-rt-b9x" firstAttribute="top" secondItem="MHf-Mg-Xwg" secondAttribute="top" constant="30" id="0dj-Eo-Y0i"/>
+                            <constraint firstItem="MHf-Mg-Xwg" firstAttribute="bottom" secondItem="SIk-rt-b9x" secondAttribute="bottom" constant="30" id="6jO-mA-wRW"/>
+                            <constraint firstItem="SIk-rt-b9x" firstAttribute="leading" secondItem="MHf-Mg-Xwg" secondAttribute="leading" constant="30" id="bie-eI-Fx2"/>
+                            <constraint firstItem="MHf-Mg-Xwg" firstAttribute="trailing" secondItem="SIk-rt-b9x" secondAttribute="trailing" constant="30" id="u2Y-m1-WXs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pI4-U4-yYg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_devpoint" width="341.33334350585938" height="341.33334350585938"/>
+    </resources>
+</document>
